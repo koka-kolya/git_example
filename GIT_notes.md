@@ -20,4 +20,19 @@ commit - фиксация изменений, конкретная версия 
 branch - альтернативная ветка развития кода
 ---
 
+					 origin_project
+			    -----------*------------
+			   |						|  
+		   copy_project				copy_project
+			   |						|
+			   *						* local commits
+			   |						|
+			   * local commits			*
+			   |
+			   *
 
+
+git clone URL - make local copy of origin to PC
+git add - add some files to copy
+git commit - make commit local's changes to copy_project
+git push - send local's changes from copy_project to origin_projects
